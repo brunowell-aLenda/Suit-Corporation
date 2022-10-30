@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #EDEDED;
+}
+
+.logo{
+    padding: 36px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.logo-voltar{
+    margin-top: 80px;
+
+}
+
+main > section{
+    background-color: #FFFFFF ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 430px;
+    height: 524px;
+    padding: 26px 36px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
+}
+
+form label{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 0.1;
+    border-color: #B3B3B3;
+    margin-bottom: 20px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #e6aa06;
+    border: 2px solid #FFBB00 ;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+form button:hover{
+    background-color: #FFBB00;
+}
+
+
+
+/*
+.titulo{
+    margin-top: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align:center;
+}
+
+.subTitulo{
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 18px;
+    font-weight: 400;
+    text-align:center;
+}
+*/
+
+.footer{  
+    font-family: 'Poppins', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    margin-top: 620px;
+    text-align: center;
+}
+
+
