@@ -10,25 +10,24 @@ body{
 .logo{
     padding: 36px;
     position: absolute;
+    width: 200px;
     top: 10px;
     left: 50%;
     transform: translate(-50%);
 }
 
 .logo-voltar{
-    margin-top: 80px;
-
+    margin-bottom: 20px;
 }
 
 main > section{
     background-color: #FFFFFF ;
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 855px;
-    height: 532px;
-    padding: 25px 36px;
+    width: 60vw;
+    padding: 30px 40px;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -38,6 +37,42 @@ section form{
     flex-direction: column;
     width: 100%;
     margin-top: 25px;
+    align-items: center;
+}
+
+.areas{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.area-esquerda{
+    width: 40%;
+}
+.area-direita{
+    width: 40%;
+}
+
+.area-esquerda label{
+    display: block;
+}
+
+.area-direita label{
+    display: block;
+    margin-bottom: 4px;
+}
+
+.campos{
+    display: flex;
+    gap: 25px;
+}
+
+.campos span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -205px;
+    
 }
 
 form label{
@@ -45,14 +80,24 @@ form label{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 4px;
+    margin: 10px 0 4px 0;
 }
 
 form input{
     padding: 15px;
+    width: 100%;
     border-radius: 10px;
     border: 2px solid #B3B3B3;
-    margin-bottom: 20px;
+}
+
+form select {
+    padding: 13px;
+    border: 2px solid #B3B3B3;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
 }
 
 input::placeholder{
@@ -61,22 +106,19 @@ input::placeholder{
     font-weight: 400;
 }
 
-.area-geral-form{
-    display: flex;
-    
-}
-
 form button{
-    padding: 15px;
+    padding: 10px;
     cursor: pointer;
     font-size: 16px;
+    width: 382px;
+    height: 50px;
     background-color: #e6aa06;
     border: 2px solid #FFBB00 ;
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 form button:hover{
@@ -88,8 +130,7 @@ form button:hover{
     font-size: 16px;
     font-weight: 400;
     color: #717171;
-    margin-top: 620px;
+    margin-top: 790px;
     text-align: center;
 }
-
 

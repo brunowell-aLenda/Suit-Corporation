@@ -12,7 +12,8 @@ nav{
 }
 
 nav > .logo > img {
-    margin: 12px 55px;  
+    margin: 12px 55px;
+    width: 180px;  
 }
 
 ul {
@@ -29,11 +30,10 @@ ul li {
     font-size: 18px;
     margin: 20px;
     border: 2px solid #FFBB00;
-    padding: 4px 20px;
+    padding: 6px 20px;
     border-radius: 5px;
     text-decoration: none;
 }
-
 
 /* Botão Login */
 ul li:nth-child(1) .buttons{
@@ -47,14 +47,18 @@ ul li:nth-child(2) .buttons{
     background: #FFBB00;
 }
 
+.intro_inicial{
+    align-items: center;
+}
 .intro_inicial > img{
     display: block;
     margin: 0 auto;
-    margin-top: 60px;
+    align-items: center;
+    margin-top: 80px;
 }
 
 .titulo{
-    margin-top: 55px;
+    margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
     font-size: 32px;
     font-weight: 600;
@@ -74,8 +78,6 @@ ul li:nth-child(2) .buttons{
     font-size: 16px;
     font-weight: 400;
     color: #717171;
-    margin-top: 170px;
+    margin-top: 260px;
     text-align: center;
 }
-
-
