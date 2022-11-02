@@ -60,7 +60,7 @@
                     <div class="area-nOAB">
                         <label for="numeroOab">Número da OAB</label>
                         <div class="campos">
-                            <select id="uf" name="uf" required>
+                            <select id="ufS" name="ufS" required>
                                 <option>UF</option>
                                 <option value="CE">Ceará</option>
                                 <option value="RN">Rio grande do Norte</option>
@@ -118,7 +118,7 @@
                 </div>
             </div>
             
-            <button type="submit">CADASTRAR</button>
+            <button type="submit" onclick="pegarDadosSalvarLocalStore()">CADASTRAR</button>
         </form>
     </section>
 </main>
@@ -127,6 +127,7 @@
     <p class="footer">© copyright 2022 - Suit Corporation</p>  
   </footer>
   
+  <script src="../../db/bancoEstatico.js"></script>
 </body>
 </html>
 
