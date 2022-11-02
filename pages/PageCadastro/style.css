@@ -21,9 +21,10 @@ body{
 }
 
 main > section{
+    margin: auto;
     background-color: #FFFFFF ;
     position: absolute;
-    top: 48%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60vw;
@@ -130,7 +131,7 @@ form button:hover{
     font-size: 16px;
     font-weight: 400;
     color: #717171;
-    margin-top: 790px;
+    margin-top: 800px;
     text-align: center;
 }
 
