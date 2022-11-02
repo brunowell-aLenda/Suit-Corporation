@@ -21,6 +21,11 @@ body{
 
 }
 
+.mensagem-de-erro{
+    display:none;
+    color: red;
+}
+
 main > section{
     background-color: #FFFFFF ;
     position: absolute;

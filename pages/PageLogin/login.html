@@ -17,11 +17,14 @@
         <img src="../../img/Logo.svg" alt="Logo da empresa" class="logo" title="Logo - Suit Corporation">
         <a href="../../index.html"><img src="../../img/arrow_black.svg" alt="Botão Voltar" class="logo-voltar" title="Voltar a tela Inicial"></a>
         <form action="#">
+          <div class="mensagem-de-erro">
+            <p>Campos inválidos</p>
+          </div>
             <label>Email</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu email">
+            <input type="email" name="email" id="email" placeholder="Digite seu email" autocomplete="username">
             <label class="se">Senha</label>
-            <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
-            <button type="submit">ENTRAR</button>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" autocomplete="current-password">
+            <button type="button" onclick="login()">ENTRAR</button>
         </form>
         <div class="link-cadastrar">
           Ainda não tem uma conta? <a href="../PageCadastro/cadastro.html" title="Crie uma conta">Cadastre-se</a>
@@ -36,5 +39,6 @@
     <p class="footer">© copyright 2022 - Suit Corporation</p>  
   </footer>
   
+  <script src="../../db/bancoEstatico.js"></script>
 </body>
 </html>

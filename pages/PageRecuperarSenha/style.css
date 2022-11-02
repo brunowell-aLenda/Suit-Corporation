@@ -20,6 +20,11 @@ body{
 
 }
 
+.mensagem-de-erro-senha{
+    display: none;
+    color: red;
+}
+
 main > section{
     background-color: #FFFFFF ;
     position: absolute;

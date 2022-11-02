@@ -17,13 +17,16 @@
         <img src="../../img/logo.svg" alt="Logo da empresa" class="logo" title="Logo - Suit Corporation">
         <a href="../PageLogin/login.html"><img src="../../img/arrow_black.svg" alt="Botão Voltar" class="logo-voltar" title="Voltar a tela de Login"></a>
         <form action="#">
+          <div class="mensagem-de-erro-senha">
+            <p>Campos não conferem</p>
+          </div>
             <label>Email</label>
             <input type="email" name="email" id="email" placeholder="Digite seu email">
             <label class="se">Senha</label>
-            <input type="password" name="senha" id="senha" placeholder="Digite sua nova senha">
+            <input type="password" name="novaSenha" id="novaSenha" placeholder="Digite sua nova senha">
             <label class="Nse">Nova Senha</label>
-            <input type="password" name="Nsenha" id="Nsenha" placeholder="Confirme sua nova senha">
-            <button type="submit">RECUPERAR</button>
+            <input type="password" name="confirmaNovaSenha" id="confirmaNovaSenha" placeholder="Confirme sua nova senha">
+            <button type="button" onclick="atualizarSenha()">RECUPERAR</button>
 
         </form>
     </section>
@@ -33,5 +36,7 @@
     <p class="footer">© copyright 2022 - Suit Corporation</p>  
   </footer>
   
+<script src="../../db/bancoEstatico.js"></script>
+
 </body>
 </html>
