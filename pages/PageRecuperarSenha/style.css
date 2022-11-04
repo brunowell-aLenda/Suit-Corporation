@@ -21,8 +21,13 @@ body{
 }
 
 .mensagem-de-erro-senha{
-    display: none;
-    color: red;
+    display:none;
+    color: #FF0000;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -25px;
+    margin-bottom: 10px;
 }
 
 main > section{
@@ -91,5 +96,7 @@ form button:hover{
     margin-top: 620px;
     text-align: center;
 }
+
+
 
 
