@@ -100,7 +100,7 @@ function login(){
   }
 
   if(email === advogadoJSON.email && senha === advogadoJSON.senha){
-        window.location.pathname="/index.html";        
+        window.location.pathname="../../pages/TelaPrincipal/telaprincipal.html";        
         return;
     }
     
