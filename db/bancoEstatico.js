@@ -57,7 +57,7 @@ function obterDadosLocalStore(){
 }
 
 //Atualizar cadastro do advogado (TELA DE EDIÇÃO PERFIL) 
-/*function atualizarCadastro(){
+function atualizarCadastro(){
     const advogadoJSON = JSON.parse(localStorage.getItem('advogado'));
 
     const advogado = {
@@ -82,7 +82,7 @@ function obterDadosLocalStore(){
          } );
         localStorage.setItem('advogado', JSON.stringify(advogadoJSON));
 } 
-*/
+
 
 //Função para login
 function login(){

@@ -35,6 +35,7 @@ nav > ul > li > a{
 .navegacao{
     display: flex;
     position: relative;
+    
 }
 
 .navegacao .menu-lateral{
@@ -103,11 +104,19 @@ nav > ul > li > a{
     align-items: center;
 }
 
+
+.intro_inicial a img{
+    display: flex;
+    justify-items: center;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
 .titulo{
     display: flex;
     justify-items: center;
     margin-left: 150px;
-    margin-top: 53px;
+    margin-bottom: 8px;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -115,31 +124,112 @@ nav > ul > li > a{
     gap: 8px;
 }
 
-.linha{
+main > section{
+    margin: auto;
+    background-color: #FFFFFF ;
+    position: absolute;
+    top: 100%;
+    margin-left: 190px;
+    width: 60vw;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+section form{
     display: flex;
-    justify-items: center;
-    margin-left: 150px;
-    max-width: auto;
-    min-width: auto;
-    margin-top: 16px;
-    text-align:center;
-    gap: 8px; 
+    flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
+    align-items: center;
 }
 
-.titulo-boas-vindas{
-    margin-top: 32px;
+.areas{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.area-esquerda{
+    width: 40%;
+}
+.area-direita{
+    width: 40%;
+}
+
+.area-esquerda label{
+    display: block;
+}
+
+.area-direita label{
+    display: block;
+    margin-bottom: 4px;
+}
+
+.campos{
+    display: flex;
+    gap: 25px;
+}
+
+.campos span{
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.num{
+    display: flex;
+    gap: 50px;
+}
+
+form label{
+    color: #000000;
     font-family: 'Open Sans', sans-serif;
-    font-size: 32px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 44px;
-    text-align:center;
+    margin: 10px 0 4px 0;
 }
 
-.subTitulo{
-    margin-top: 12px;
-    font-family: 'Poppins', sans-serif;;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 27px;
-    text-align:center;
+form input{
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #B3B3B3;
+}
+
+form select {
+    padding: 10.1px;
+    border: 2px solid #B3B3B3;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+}
+
+input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 382px;
+    height: 50px;
+    background-color: #e6aa06;
+    border: 2px solid #FFBB00 ;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background-color: #FFBB00;
 }
