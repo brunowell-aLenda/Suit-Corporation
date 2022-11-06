@@ -57,32 +57,7 @@ function obterDadosLocalStore(){
 }
 
 //Atualizar cadastro do advogado (TELA DE EDIÇÃO PERFIL) 
-/*function atualizarCadastro(){
-    const advogadoJSON = JSON.parse(localStorage.getItem('advogado'));
 
-    const advogado = {
-        nome: document.getElementById('nome').value,
-        cpf: document.getElementById('cpf').value,
-        email: document.getElementById('email').value,
-        nascimento: document.getElementById('nascimento').value,
-        logradouro: document.getElementById('logradouro').value,
-        bairro: document.getElementById('bairro').value,
-        sobrenome: document.getElementById('sobrenome').value,
-        numeroOabS: document.getElementById('ufS').value,
-        numeroOabC: document.getElementById('numeroOab').value,
-        senha: document.getElementById('senha').value,
-        telefone: document.getElementById('telefone').value,
-        numero: document.getElementById('numero').value,
-        ufS: document.getElementById('uf').value,
-        complemento: document.getElementById('complemento').value,
-    };
-
-        Object.keys(advogadoJSON).map(item => { 
-            advogadoJSON[item] = advogado[item]
-         } );
-        localStorage.setItem('advogado', JSON.stringify(advogadoJSON));
-} 
-*/
 
 //Função para login
 function login(){
