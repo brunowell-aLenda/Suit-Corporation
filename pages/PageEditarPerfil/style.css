@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-nav{
+header{
     background-color: #000000;
     overflow: hidden;
     position: fixed;
@@ -16,14 +16,14 @@ nav{
     justify-content: space-between;
 }
 
-nav > .logo > img {
+header > .logo > img {
     float: left;
     display: block;
     margin: 12px 55px;
     width: 180px;
 }
 
-nav > a{
+header > a{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -34,14 +34,14 @@ nav > a{
     gap: 8px;
 }
 
-.navegacao{
+main nav .navegacao{
     display: flex;
     position: fixed;
     margin-top: 70px;
     
 }
 
-.navegacao .menu-lateral{
+main nav .navegacao .menu-lateral{
     position: flex;
     width: 305px;
     min-height: 100vh;
@@ -51,7 +51,7 @@ nav > a{
     border-right: 3px solid #DEE2E6;
 }
 
-.navegacao .menu-lateral ul li{
+main nav .navegacao .menu-lateral ul li{
     padding: 15px;
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
@@ -59,25 +59,25 @@ nav > a{
     color: #000000;
 }
 
-.navegacao .menu-lateral ul li a{
+main nav .navegacao .menu-lateral ul li a{
     display: flex;
     align-items: center;
     color: #000000;
     gap: 8px;
 }
 
-.navegacao .menu-lateral ul li:hover{
+main nav .navegacao .menu-lateral ul li:hover{
     background: #e5e5eb;
 }
 
-.navegacao .menu-lateral .logout .log{
+main nav .navegacao .menu-lateral .logout .log{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
 }
 
-.navegacao .menu-lateral .logout a{
+main nav .navegacao .menu-lateral .logout a{
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     font-weight: 600;
@@ -89,11 +89,11 @@ nav > a{
     gap: 8px;
 }
 
-.navegacao .intro_inicial .titulo{
+main section .a .intro_inicial{
     display: flex;
-    justify-items: center;
-    margin-top: 60px;
-    margin-left: 40px;
+}
+
+main section .a .intro_inicial p{
     margin-bottom: 28px;
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
@@ -102,14 +102,11 @@ nav > a{
     gap: 8px;
 }
 
-.navegacao .sessao-card{
-    height: 500px;
-    overflow-y: scroll;
-
+section .form{
     margin: auto;
     background-color: #FFFFFF ;
     position: absolute;
-    margin-top: 120px;
+    margin-top: 500px;
     margin-left: 400px;
     width: 60vw;
     padding: 30px 40px;
@@ -117,7 +114,7 @@ nav > a{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.sessao-card form{
+.form form{
     display: flex;
     flex-direction: column;
     width: 100%;
