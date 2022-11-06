@@ -73,6 +73,18 @@ nav > ul > li > a{
     margin-top: 180px;
 }
 
+.navegacao .menu-lateral .logout hr{
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1px;
+    height: 2%;
+    background-color: #DEDEDE;
+    color: #DEDEDE;
+}
+
 .navegacao .menu-lateral .logout a{
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
@@ -107,6 +119,8 @@ nav > ul > li > a{
     display: flex;
     justify-items: center;
     margin-left: 150px;
+    max-width: auto;
+    min-width: auto;
     margin-top: 16px;
     text-align:center;
     gap: 8px;
