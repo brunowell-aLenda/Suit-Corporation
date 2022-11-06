@@ -24,7 +24,7 @@ main > section{
     margin: auto;
     background-color: #FFFFFF ;
     position: absolute;
-    top: 62%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 60vw;
@@ -69,10 +69,16 @@ section form{
 }
 
 .campos span{
+    display: flex;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    margin-top: -210px;
+}
+
+.num{
+    display: flex;
+    gap: 50px;
 }
 
 form label{
@@ -91,7 +97,7 @@ form input{
 }
 
 form select {
-    padding: 13px;
+    padding: 10.1px;
     border: 2px solid #B3B3B3;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
@@ -130,7 +136,7 @@ form button:hover{
     font-size: 16px;
     font-weight: 400;
     color: #717171;
-    margin-top: 800px;
+    margin-top: 770px;
     text-align: center;
 }
 
