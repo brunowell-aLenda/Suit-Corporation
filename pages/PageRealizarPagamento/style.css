@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-nav {
+header {
   background-color: #000000;
   overflow: hidden;
   position: fixed;
@@ -16,14 +16,14 @@ nav {
   justify-content: space-between;
 }
 
-nav > .logo > img {
+header > .logo > img {
   float: left;
   display: block;
   margin: 12px 55px;
   width: 180px;
 }
 
-nav > a {
+header > a {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -34,14 +34,17 @@ nav > a {
   gap: 8px;
 }
 
-.navegacao {
+main {
+  position: relative;
+}
+
+main nav .navegacao {
   display: flex;
   position: fixed;
   margin-top: 70px;
 }
 
-.navegacao .menu-lateral {
-  position: flex;
+main nav .navegacao .menu-lateral {
   width: 305px;
   min-height: 100vh;
   height: 100%;
@@ -50,7 +53,7 @@ nav > a {
   border-right: 3px solid #dee2e6;
 }
 
-.navegacao .menu-lateral ul li {
+main nav .navegacao .menu-lateral ul li {
   padding: 15px;
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
@@ -58,25 +61,25 @@ nav > a {
   color: #000000;
 }
 
-.navegacao .menu-lateral ul li a {
+main nav .navegacao .menu-lateral ul li a {
   display: flex;
   align-items: center;
   color: #000000;
   gap: 8px;
 }
 
-.navegacao .menu-lateral ul li:hover {
+main nav .navegacao .menu-lateral ul li:hover {
   background: #e5e5eb;
 }
 
-.navegacao .menu-lateral .logout .log {
+main nav .navegacao .menu-lateral .logout .log {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 60px;
 }
 
-.navegacao .menu-lateral .logout a {
+main nav .navegacao .menu-lateral .logout a {
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   font-weight: 600;
@@ -88,12 +91,17 @@ nav > a {
   gap: 8px;
 }
 
-.navegacao .intro_inicial .titulo {
+section .area {
   display: flex;
-  justify-items: center;
-  margin-top: 60px;
-  margin-left: 40px;
-  margin-bottom: 38px;
+  flex-direction: column;
+}
+
+section.area .intro_inicial {
+  position: absolute;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  margin-left: 350px;
   font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
@@ -101,18 +109,19 @@ nav > a {
   gap: 8px;
 }
 
-.boleto {
+
+section .boleto {
+  display: flex;
+  position: absolute;
   background: #d9d9d9;
   width: 200px;
   height: 200px;
-  margin-top: 120px;
-  margin-left: -245px;
-  display: flex;
-  position: relative;
+  margin-left: 360px;
   border-radius: 10px;
+  margin-top: 200px;
 }
 
-.boleto .titulo-boleto {
+section .boleto a{
   display: flex;
   position: absolute;
   margin-top: 165px;
@@ -124,56 +133,25 @@ nav > a {
   color: #000000;
 }
 
-.boleto .titulo-boleto img {
+section .boleto a img {
   display: flex;
   position: absolute;
   margin-left: 120px;
 }
 
-.button {
-  width: 200px;
-  height: 44px;
-  background: #ffbb00;
-  padding: 10px 10px;
-  margin: 10px;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  border-radius: 5px;
-  overflow: hidden;
-  margin-top: 350px;
-  margin-left: 362px;
-}
-
-.button span{
-  width: 116px;
-  position: absolute;
-  top: 12px;
-  left: 42px;
-  text-align: left;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #000000;
-}
-
-form button {
+section .but button{
   padding: 10px;
   cursor: pointer;
   font-size: 16px;
-  width: 382px;
-  height: 50px;
-  background-color: #e6aa06;
+  width: 200px;
+  height: 44px;
+  background-color: #FFBB00;
   border: 2px solid #ffbb00;
   border-radius: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family:  "Poppins", sans-serif;
   font-size: 16px;
-  font-weight: 600;
-  margin-top: 30px;
-}
-
-form button:hover {
-  background-color: #ffbb00;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 420px;
+  margin-left: 360px;
 }

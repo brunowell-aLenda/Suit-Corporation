@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-header{
+header {
     background-color: #000000;
     overflow: hidden;
     position: fixed;
@@ -23,62 +23,64 @@ header > .logo > img {
     width: 180px;
 }
 
-header > a{
-    font-family: 'Open Sans', sans-serif;
+header > a {
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #E5A40B;
+    color: #e5a40b;
     padding: 20px 55px;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-main nav .navegacao{
+main {
+    position: relative;
+}
+
+main nav .navegacao {
     display: flex;
     position: fixed;
     margin-top: 70px;
-    
 }
 
-main nav .navegacao .menu-lateral{
-    position: flex;
+main nav .navegacao .menu-lateral {
     width: 305px;
     min-height: 100vh;
     height: 100%;
-    background: #EDEDED;
+    background: #ededed;
     padding: 60px 36px;
-    border-right: 3px solid #DEE2E6;
+    border-right: 3px solid #dee2e6;
 }
 
-main nav .navegacao .menu-lateral ul li{
+main nav .navegacao .menu-lateral ul li {
     padding: 15px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 17px;
     font-weight: 600;
     color: #000000;
 }
 
-main nav .navegacao .menu-lateral ul li a{
+main nav .navegacao .menu-lateral ul li a {
     display: flex;
     align-items: center;
     color: #000000;
     gap: 8px;
 }
 
-main nav .navegacao .menu-lateral ul li:hover{
+main nav .navegacao .menu-lateral ul li:hover {
     background: #e5e5eb;
 }
 
-main nav .navegacao .menu-lateral .logout .log{
+main nav .navegacao .menu-lateral .logout .log {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
 }
 
-main nav .navegacao .menu-lateral .logout a{
-    font-family: 'Open Sans', sans-serif;
+main nav .navegacao .menu-lateral .logout a {
+    font-family: "Open Sans", sans-serif;
     font-size: 17px;
     font-weight: 600;
     color: #000000;
@@ -89,32 +91,38 @@ main nav .navegacao .menu-lateral .logout a{
     gap: 8px;
 }
 
-main section .a .intro_inicial{
+section .area {
     display: flex;
+    flex-direction: column;
 }
 
-main section .a .intro_inicial p{
-    margin-bottom: 28px;
-    font-family: 'Open Sans', sans-serif;
+section.area .intro_inicial {
+    position: absolute;
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    font-family: "Open Sans", sans-serif;
     font-size: 24px;
     font-weight: 600;
-    text-align:center;
+    text-align: center;
     gap: 8px;
 }
 
-section .form{
+section .form {
     margin: auto;
-    background-color: #FFFFFF ;
+    background-color: #ffffff;
     position: absolute;
-    margin-top: 500px;
+    margin-top: 200px;
     margin-left: 400px;
     width: 60vw;
     padding: 30px 40px;
     border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.form form{
+.form form {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -122,92 +130,92 @@ section .form{
     align-items: center;
 }
 
-.areas{
+.areas {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-.area-esquerda{
+.area-esquerda {
     width: 40%;
 }
-.area-direita{
+.area-direita {
     width: 40%;
 }
 
-.area-esquerda label{
+.area-esquerda label {
     display: block;
 }
 
-.area-direita label{
+.area-direita label {
     display: block;
     margin-bottom: 4px;
 }
 
-.campos{
+.campos {
     display: flex;
     gap: 25px;
 }
 
-.campos span{
+.campos span {
     display: flex;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-.num{
+.num {
     display: flex;
     gap: 50px;
 }
 
-form label{
+form label {
     color: #000000;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 600;
     margin: 10px 0 4px 0;
 }
 
-form input{
+form input {
     padding: 15px;
     width: 100%;
     border-radius: 10px;
-    border: 2px solid #B3B3B3;
+    border: 2px solid #b3b3b3;
 }
 
 form select {
     padding: 10.1px;
-    border: 2px solid #B3B3B3;
+    border: 2px solid #b3b3b3;
     border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
     width: 100%;
 }
 
-input::placeholder{
-    font-family: 'Poppins', sans-serif;
+input::placeholder {
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
 
-form button{
+form button {
     padding: 10px;
     cursor: pointer;
     font-size: 16px;
     width: 382px;
     height: 50px;
     background-color: #e6aa06;
-    border: 2px solid #FFBB00 ;
+    border: 2px solid #ffbb00;
     border-radius: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: 600;
     margin-top: 30px;
 }
 
-form button:hover{
-    background-color: #FFBB00;
+form button:hover {
+    background-color: #ffbb00;
 }
