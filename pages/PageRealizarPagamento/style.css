@@ -130,6 +130,9 @@ section .boleto {
   margin-left: 23.75rem;
   border-radius: .625rem;
   margin-top: 13.75rem;
+  background-image: url(../../img/FilePdf.svg);
+  background-repeat:no-repeat;
+  background-position: center;
 }
 
 section .boleto a{
@@ -143,6 +146,7 @@ section .boleto a{
   line-height: 1.5rem;
   color: #000000;
 }
+
 
 section .boleto a img {
   display: flex;
