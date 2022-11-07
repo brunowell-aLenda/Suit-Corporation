@@ -8,15 +8,15 @@ body{
 }
 
 .logo{
-    padding: 36px;
+    padding: 2.25rem;
     position: absolute;
-    top: 10px;
+    top: .625rem;
     left: 50%;
     transform: translate(-50%);
 }
 
 .logo-voltar{
-    margin-top: 80px;
+    margin-top: 5rem;
 
 }
 
@@ -24,10 +24,10 @@ body{
     display:none;
     color: #FF0000;
     font-family: 'Poppins', sans-serif;;
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400;
-    margin-top: -25px;
-    margin-bottom: 10px;
+    margin-top: -1.5625rem;
+    margin-bottom: .625rem;
 }
 
 main > section{
@@ -36,10 +36,10 @@ main > section{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 430px;
-    height: 505px;
-    padding: 26px 36px;
-    border-radius: 10px;
+    width: 26.875rem;
+    height: 31.5625rem;
+    padding: 1.625rem 2.25rem;
+    border-radius: .625rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
@@ -47,41 +47,41 @@ section form{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
 }
 
 form label{
     color: #000000;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
-    margin-bottom: 4px;
+    margin-bottom: .25rem;
 }
 
 form input{
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid #B3B3B3;
-    margin-bottom: 20px;
+    padding: .9375rem;
+    border-radius: .625rem;
+    border: .125rem solid #B3B3B3;
+    margin-bottom: 1.25rem;
 }
 
 input::placeholder{
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 form button{
-    padding: 15px;
+    padding: .9375rem;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: #e6aa06;
-    border: 2px solid #FFBB00 ;
-    border-radius: 10px;
+    border: .125rem solid #FFBB00 ;
+    border-radius: .625rem;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
-    margin-top: 5px;
+    margin-top: .3125rem;
 }
 
 form button:hover{
@@ -90,10 +90,10 @@ form button:hover{
 
 .footer{  
     font-family: 'Poppins', sans-serif;;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: #717171;
-    margin-top: 620px;
+    margin-top: 38.75rem;
     text-align: center;
 }
 

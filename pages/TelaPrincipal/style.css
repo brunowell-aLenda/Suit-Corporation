@@ -11,7 +11,7 @@ header {
   overflow: hidden;
   position: fixed;
   width: 100%;
-  height: 70px;
+  height: 4.375rem;
   display: flex;
   justify-content: space-between;
 }
@@ -19,19 +19,19 @@ header {
 header > .logo > img {
   float: left;
   display: block;
-  margin: 12px 55px;
-  width: 180px;
+  margin: .75rem 3.4375rem;
+  width: 11.25rem;
 }
 
 header > a {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: #e5a40b;
-  padding: 20px 55px;
+  padding: 1.25rem 3.4375rem;
   display: flex;
   align-items: center;
-  gap: 8px
+  gap: .5rem;
 }
 
 main {
@@ -41,22 +41,22 @@ main {
 main nav .navegacao {
   display: flex;
   position: fixed;
-  margin-top: 70px;
+  margin-top: 4.375rem;
 }
 
 main nav .navegacao .menu-lateral {
-  width: 305px;
+  width: 19.0625rem;
   min-height: 100vh;
   height: 100%;
   background: #ededed;
-  padding: 60px 36px;
-  border-right: 3px solid #dee2e6;
+  padding: 3.75rem 2.25rem;
+  border-right: .1875rem solid #dee2e6;
 }
 
 main nav .navegacao .menu-lateral ul li {
-  padding: 15px;
+  padding: .9375rem;
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
   color: #000000;
 }
@@ -65,7 +65,7 @@ main nav .navegacao .menu-lateral ul li a {
   display: flex;
   align-items: center;
   color: #000000;
-  gap: 8px;
+  gap: .5rem;
 }
 
 main nav .navegacao .menu-lateral ul li:hover {
@@ -76,23 +76,23 @@ main nav .navegacao .menu-lateral .logout .log {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 180px;
+  margin-top: 3.75rem;
 }
 
 main nav .navegacao .menu-lateral .logout a {
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
   color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  gap: 8px;
+  margin-top: .625rem;
+  gap: .5rem;
 }
 
 main nav .navegacao .menu-lateral .logout a:hover {
-    background: #e5e5eb;
+  background: #e5e5eb;
 }
 
 section .area {
@@ -102,39 +102,47 @@ section .area {
 
 section.area .intro_inicial {
   position: absolute;
-  margin-top: 150px;
+  margin-top: 8.75rem;
   display: flex;
   justify-content: center;
-  margin-left: 350px;
+  margin-left: 21.875rem;
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
+  gap: .5rem;
 }
 
-section .intro img{
-    margin-top: 200px;
-    margin-left: 350px;
-    width: 1035px;
+section.area .intro img{
+  position: absolute;
+  display: flex;
+  margin-top: 185px;
+  margin-left: 21.875rem;
+  width: 59.6875rem;
 }
 
-section .intro .titulo-boas-vindas {
-  margin-top: 32px;
+section.area .intro .titulo-boas-vindas {
+  position: absolute;
+  display: flex;
+  justify-content: center;
   font-family: "Open Sans", sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
-  line-height: 44px;
+  line-height: 2.75rem;
   text-align: center;
-  margin-top: 32px;
-  margin-left: 200px;
+  margin-left: 33.125rem;
+  margin-top: 13.75rem;
 }
 
-section .intro .subTitulo {
-  margin-top: 12px;
+section.area .intro .subTitulo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
-  line-height: 27px;
+  line-height: 1.6875rem;
   text-align: center;
-  margin-left: 200px;
+  margin-left: 30.625rem;
+  margin-top: 16.25rem;
 }

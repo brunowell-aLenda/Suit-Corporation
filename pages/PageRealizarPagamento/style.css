@@ -11,7 +11,7 @@ header {
   overflow: hidden;
   position: fixed;
   width: 100%;
-  height: 70px;
+  height: 4.375rem;
   display: flex;
   justify-content: space-between;
 }
@@ -19,19 +19,19 @@ header {
 header > .logo > img {
   float: left;
   display: block;
-  margin: 12px 55px;
-  width: 180px;
+  margin: .75rem 3.4375rem;
+  width: 11.25rem;
 }
 
 header > a {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: #e5a40b;
-  padding: 20px 55px;
+  padding: 1.25rem 3.4375rem;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: .5rem;
 }
 
 main {
@@ -41,22 +41,22 @@ main {
 main nav .navegacao {
   display: flex;
   position: fixed;
-  margin-top: 70px;
+  margin-top: 4.375rem;
 }
 
 main nav .navegacao .menu-lateral {
-  width: 305px;
+  width: 19.0625rem;
   min-height: 100vh;
   height: 100%;
   background: #ededed;
-  padding: 60px 36px;
-  border-right: 3px solid #dee2e6;
+  padding: 3.75rem 2.25rem;
+  border-right: .1875rem solid #dee2e6;
 }
 
 main nav .navegacao .menu-lateral ul li {
-  padding: 15px;
+  padding: .9375rem;
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
   color: #000000;
 }
@@ -65,7 +65,7 @@ main nav .navegacao .menu-lateral ul li a {
   display: flex;
   align-items: center;
   color: #000000;
-  gap: 8px;
+  gap: .5rem;
 }
 
 main nav .navegacao .menu-lateral ul li:hover {
@@ -76,19 +76,19 @@ main nav .navegacao .menu-lateral .logout .log {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 180px;
+  margin-top: 3.75rem;
 }
 
 main nav .navegacao .menu-lateral .logout a {
   font-family: "Open Sans", sans-serif;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
   color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  gap: 8px;
+  margin-top: .625rem;
+  gap: .5rem;
 }
 
 main nav .navegacao .menu-lateral .logout a:hover {
@@ -102,64 +102,69 @@ section .area {
 
 section.area .intro_inicial {
   position: absolute;
-  margin-top: 150px;
+  margin-top: 8.75rem;
   display: flex;
   justify-content: center;
-  margin-left: 350px;
+  margin-left: 21.5625rem;
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
+  gap: .5rem;
 }
 
-section .lin p img{
-    margin-top: 200px;
-    margin-left: 350px;
-    width: 1035px;
+section.area .intro img{
+  position: absolute;
+  display: flex;
+  margin-top: 185px;
+  margin-left: 21.875rem;
+  width: 59.6875rem;
 }
 
 section .boleto {
   display: flex;
   position: absolute;
   background: #d9d9d9;
-  width: 200px;
-  height: 200px;
-  margin-left: 380px;
-  border-radius: 10px;
-  margin-top: 50px;
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-left: 23.75rem;
+  border-radius: .625rem;
+  margin-top: 13.75rem;
 }
 
 section .boleto a{
   display: flex;
   position: absolute;
-  margin-top: 165px;
-  margin-left: 40px;
+  margin-top: 10.3125rem;
+  margin-left: 1.25rem;
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #000000;
 }
 
 section .boleto a img {
   display: flex;
   position: absolute;
-  margin-left: 120px;
+  margin-left: 8.75rem;
 }
 
+/*  CODIGO PARA O BOLETO
 section .but button{
-  padding: 10px;
+  padding: .625rem;
   cursor: pointer;
-  font-size: 16px;
-  width: 200px;
-  height: 44px;
+  font-size: 1rem;
+  width: 12.5rem;
+  height: 2.75rem;
   background-color: #FFBB00;
-  border: 2px solid #ffbb00;
-  border-radius: 10px;
+  border: .125rem solid #ffbb00;
+  border-radius: .625rem;
   font-family:  "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 24px;
-  margin-top: 280px;
-  margin-left: 379px;
+  line-height: 1.5rem;
+  margin-top: 27.5rem;
+  margin-left: 23.6875rem;
 }
+*/
