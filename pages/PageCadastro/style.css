@@ -131,13 +131,3 @@ form button{
 form button:hover{
     background-color: #FFBB00;
 }
-
-.footer{  
-    font-family: 'Poppins', sans-serif;;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #717171;
-    margin-top: 48.75rem;
-    text-align: center;
-}
-

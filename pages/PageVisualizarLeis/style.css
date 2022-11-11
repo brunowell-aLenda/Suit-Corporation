@@ -10,7 +10,7 @@ header {
   background-color: #000000;
   overflow: hidden;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 4.375rem;
   display: flex;
   justify-content: space-between;
@@ -23,7 +23,7 @@ header > .logo > img {
   width: 11.25rem;
 }
 
-header > a {
+header > a.buttons {
   font-family: "Open Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
@@ -102,10 +102,10 @@ section .area {
 
 section.area .intro_inicial {
   position: absolute;
-  margin-top: 142px;
+  margin-top: 8.75rem;
   display: flex;
   justify-content: center;
-  margin-left: 21.875rem;
+  margin-left: 21.5625rem;
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
@@ -116,9 +116,18 @@ section.area .intro_inicial {
 section.area .intro img{
   position: absolute;
   display: flex;
-  justify-content: center;
   margin-top: 185px;
   margin-left: 21.875rem;
   width: 59.6875rem;
+}
+
+
+section.area .tabelas-leis{
+  display: flex;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 21.875rem;
+  width: 59.6875rem;
+
 }
 
