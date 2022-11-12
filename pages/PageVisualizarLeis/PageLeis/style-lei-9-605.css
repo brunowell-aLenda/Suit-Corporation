@@ -123,37 +123,37 @@
   
     .card-lei{
       position: absolute;
-      margin-top: 250px;
+      margin-top: 15.625rem;
       display: flex;
       justify-content: center;
-      margin-left: 380px;
-      width: 859px;
-      height: 21000px;
-      border-radius: 10px;
+      margin-left: 23.75rem;
+      width: 53.6875rem;
+      height: 1312.5rem;
+      border-radius: .625rem;
       background-color: #FFFFFF;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
   
     .card-lei span{
       font-family: "Poppins", sans-serif;
-      font-size: 13px;
+      font-size: .8125rem;
       font-weight: 500;
-      line-height: 20px;
+      line-height: 1.25rem;
       letter-spacing: 0em;
       text-align: center;
-      padding: 40px;
+      padding: 2.5rem;
     }
   
     .card-lei p{
       position: absolute;
-      padding: 40px;
+      padding: 2.5rem;
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 500;
-      font-size: 13px;
-      line-height: 20px;
+      font-size: .8125rem;
+      line-height: 1.25rem;
       text-align: justify;
-      margin-top: 80px;
+      margin-top: 5rem;
     }
     
     /* Linha de baixo do visualizar leis

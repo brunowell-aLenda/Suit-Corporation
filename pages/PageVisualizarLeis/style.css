@@ -125,25 +125,118 @@ section.area .intro_inicial {
   line-height: 1.5rem;
   letter-spacing: 0em;
   text-align: left;
-  width: 850px;
+  width: 50.625rem;
   height: 2.75rem;
   border-radius: .625rem;
-  border: 2px solid #F0F0F0;
+  border: .125rem solid #F0F0F0;
   padding: .75rem .625rem;
+}
+
+#area-busca .icon {
+  position: absolute;
+  top: 14.4375rem;
+  left: 70rem;
+  width: 1.1875rem;
+  height: 1.1875rem;
+  background-image: url(../../img/search.svg);
+  
+}
+
+#area-busca button {
+  position: absolute;
+  outline: none;
+  border: none;
+  background-color: #FFBB00;
+  padding: .5rem;
+  border-radius: .3125rem;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #2E2E2E;
+  cursor: pointer;
+  left: 72.875rem;
+  top: 13.875rem;
+  width: 5rem;
+  height: 2.5rem;
 }
 
 section.area .intro img{
   position: absolute;
   display: flex;
-  margin-top: 185px;
+  margin-top: 11.5625rem;
   margin-left: 21.875rem;
   width: 59.6875rem;
 }
 
-section.area .tabelas-leis{
+section.area .leis {
   display: flex;
   position: absolute;
-  margin-top: 300px;
+  margin-top: 18.75rem;
   margin-left: 21.875rem;
-  width: 59.6875rem;
+  width: 74vw;
 }
+
+.leis table {
+  width: 100%;  
+}
+
+.leis td {
+  padding: .9375rem 0rem;
+  justify-content: center;
+}
+
+.leis tr {
+  position: relative;
+}
+
+.leis .table-cabecalho{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #000000;
+}
+
+.leis .table-linhas{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.leis tr::before {
+  position: absolute;
+  bottom: 0;
+  content: '';
+  width: 90%;
+  height: .125rem;
+  background-color: #DEDEDE;
+  border-radius: .0625rem;
+}
+
+.leis tr a {
+  outline: none;
+  border: none;
+  background-color: #e6aa06;
+  padding: .625rem;
+  border-radius: .3125rem;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #2E2E2E;
+  width: 6.1875rem;
+  height: 2.75rem;
+}
+
+.leis tr a:hover {
+  background-color: #FFBB00;
+}
+
