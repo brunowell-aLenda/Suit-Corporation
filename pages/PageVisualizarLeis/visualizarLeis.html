@@ -7,8 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <title>Suit Corporation - Tela inicial</title>
+  <title>Suit Corporation - Visualizar leis</title>
 </head>
 <body>
 
@@ -48,8 +47,13 @@
               <img src="../../img/linha-de-inicio-boas-vindas.svg" alt="">
             </div>
 
+            <div class="form-group input-group" id="area-busca">
+              <input type="text"  name="consulta" id="txt_consulta" placeholder="Informe o número ou a descrição da lei ">
+            </div>
+
+             
             <div class="tabelas-leis">
-              <table class="table">
+              <table class="table table-hover" id="tabela">
                 <thead class="table-borderless">
                   <tr>
                     <th scope="col">Número da lei</th>
@@ -61,37 +65,22 @@
                   <tr>
                     <td><img src="../../img/draft.svg"> Lei 10.098</td>
                     <td>Lei da Acessibilidade - Deficientes</td>
-                    <td><a class="btn btn-warning btn-md" href="#" role="button" aria-pressed="true">Visualizar</a></td>
+                    <td><a class="btn btn-warning btn-md" href="lei10-098.html" role="button" aria-pressed="true">Visualizar</a></td>
                   </tr>
                   <tr>
                     <td><img src="../../img/draft.svg"> Lei 6.367</td>
                     <td>Lei do Acidente do Trabalho</td>
-                    <td><a class="btn btn-warning btn-md" href="#" role="button" aria-pressed="true">Visualizar</a></td>
-                  </tr>
-                  <tr>
-                    <td><img src="../../img/draft.svg"> Lei 4.898</td>
-                    <td>Lei do Abuso de Autoridade</td>
-                    <td><a class="btn btn-warning btn-md" href="#" role="button" aria-pressed="true">Visualizar</a></td>
+                    <td><a class="btn btn-warning btn-md" href="Lei6-367.html" role="button" aria-pressed="true">Visualizar</a></td>
                   </tr>
                   <tr>
                     <td><img src="../../img/draft.svg"> Lei 7.492</td>
                     <td>Lei do Colarinho Branco</td>
-                    <td><a class="btn btn-warning btn-md" href="#" role="button" aria-pressed="true">Visualizar</a></td>
-                  </tr>
-                  <tr>
-                    <td><img src="../../img/draft.svg"> Lei 9.840</td>
-                    <td>Lei de Compra de Voto</td>
-                    <td><a class="btn btn-warning btn-md" href="#" role="button" aria-pressed="true">Visualizar</a></td>
+                    <td><a class="btn btn-warning btn-md" href="Lei-7-492.html" role="button" aria-pressed="true">Visualizar</a></td>
                   </tr>
                   <tr>
                     <td><img src="../../img/draft.svg"> Lei 9.605</td>
                     <td>Lei de Crimes Ambientais</td>
-                    <td><a class="btn btn-warning btn-md" href="#" role="button" aria-pressed="true">Visualizar</a></td>
-                  </tr>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><a class="btn btn-warning btn-md" href="Lei-9-605.html" role="button" aria-pressed="true">Visualizar</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -101,10 +90,13 @@
         </section>
     </main>
     
-  <script src="../../db/bancoEstatico.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.quicksearch/2.3.1/jquery.quicksearch.js"></script>
+
+<script>
+$('input#txt_consulta').quicksearch('table#tabela tbody tr');
+</script>
 
 </body>
 </html>
