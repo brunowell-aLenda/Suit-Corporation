@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suit Corporation - Gerar Petição</title>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="../../../img/Logo.svg" alt="Logo da empresa Suit Corporation">
+    </div>
+    <a href="../../../pages/PageEditarPerfil/editarPerfil.html" class="buttons" title="Editar dados pessoais"><img src="../../../img/perfil.svg" alt="">Perfil</a>
+</header>
+
+<main>
+    <nav>
+        <div class="navegacao">
+          <div class="menu-lateral">
+            <ul>
+              <li><a href="../../../pages/TelaPrincipal/telaprincipal.html"><img src="../../../img/cottage.svg">Tela inicial</a></li>
+              <li><a href="#"><img src="../../../img/folder_open.svg">Visualizar casos</a></li>
+              <li><a href="../../../pages/PageAdicionarCaso/adicionarCaso.html"><img src="../../../img/note_add.svg">Adicionar caso</a></li>
+              <li><a href="../../../pages/PageVisualizarLeis/visualizarLeis.html"><img src="../../../img/menu_book.svg">Visualizar leis</a></li>
+              <li><a href="../../../pages/PageRealizarPagamento/realizarPagamento.html"><img src="../../../img/attach_money.svg">Realizar pagamento</a></li>
+            </ul>
+      
+            <div class="logout">
+              <p class="log"><img src="../../../img/Logo_transparente_menu.svg" alt=""></p>
+              <p class="linh"><img src="../../../img/linha-pequena.svg" alt=""></p>
+              <a href="../../../index.html" title="Sair"><img src="../../../img/mode_off_on.svg">Sair</a>
+            </div>
+          </div>  
+    </nav>
+
+    <section class="area">
+        <a href="../../../pages/PageAdicionarCaso/PageEscolherModeloPeticao/escolhermodelo.html"><img src="../../../img/arrow_black.svg" alt="Botão Voltar" class="logo-voltar" title="Voltar a tela Inicial"></a>
+        <div class="intro_inicial">
+          <p><img src="../../../img/note_add.svg">  Gerar petição</p>
+        </div>
+
+            <div class="intro">
+              <img src="../../../img/linha-de-inicio-boas-vindas.svg" alt="">
+            </div>
+
+            <div class="dvCentro">
+              <textarea id="txtArtigo" name="txtArtigo">
+                  <p>
+                    Petição Inicial - TJ - Ação de Divórcio Consensual e Partilha de Bens do Pedido de Gratuidade da Justiça os - Procedimento Comum Cível
+                    <br><br>
+                    <b>
+                    EXCELENTÍSSIMO SENHOR DOUTOR JUIZ DE DIREITO DA VARA CÍVEL DA COMARCA DE CAMPINAS - SP - FORO REGIONAL DA VILA MIMOSA
+                    </b>
+                    <br><br>
+                    Nome <b>SERAPILHA</b>, brasileira, casada, escriturária, nascida em Campinas/SP no dia 27/01/1982, portadora da cédula de Identidade n° 00000-00 e CPF nº 000.000.000-00, Filha de Nome, com endereço Endereço CEP: 00000-000 e Nome, brasileiro, casado, auxiliar administrativo, nascido em Campinas/S.P no dia 16/08/1975.. portador da cédula de Identidade nº 00000-00 e CPF nº 000.000.000-00, Filho de Nome, atualmente residindo no pais de Portugal - <b>NESTE ATO REPRESENTADO PELO Sr.</b> Nome, brasileiro, solteiro, nascido em Campinas-S.P., portador do RG: 00000-00 e CPF: 000.000.000-00, com endereço Endereço CEP: 00000-000 por intermédio da advogada infra assinada, patrona comum dos interessados, procuração em anexo, vem respeitosamente à presença de V. Excelência, apresentar:
+                    <br><br>
+                    <b>
+                    AÇÃO DE DIVÓRCIO CONSENSUAL E PARTILHA DE BENS
+                    </b>
+                    <br><br>
+                    <b>
+                    DO PEDIDO DE GRATUIDADE DA JUSTIÇA
+                    </b>
+                    <br><br>
+                    Os requerentes pleiteiam os beneficios da Justica Gratuita assegurado.
+                    <br><br>
+                    <b>
+                    DOS FATOS
+                    </b>
+                    <br><br>
+                    Os requerentes casaram-se em 19 de Maio de 2000, sob o Regime de Comunhão Parcial de Bens, conforme Nome em anexo.
+                    <br><br>
+                    Há algum tempo (aproximadamente 10 meses), após alguns desentendimentos os requerentes se separaram, permanecendo tal situação até a data atual.
+                    <br><br>
+                    Endereço CEP 00000-000
+                    <br><br>
+                    19-00000-00 (Claro) / 19-00000-00 (Oi) / 19-00000-00 (Vivo) / 19-00000-00 (Tim)
+                    <br><br>
+                    e-mail: email@email.com
+                    <br><br>
+                 </p>
+                </textarea>
+              </div>
+              <div class="card-modelo-pronto">   
+                <button type="button" onclick="">Salvar</button>
+             </div>
+        </section>
+    </main>
+    
+    <script src="../../../ckeditor/ckeditor.js"></script>
+    <script>
+      CKEDITOR.replace( 'txtArtigo' );
+    </script>
+</body>
+</html>
