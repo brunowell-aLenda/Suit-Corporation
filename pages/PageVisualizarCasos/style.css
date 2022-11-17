@@ -125,7 +125,7 @@ section.area .intro_inicial {
   line-height: 1.5rem;
   letter-spacing: 0em;
   text-align: left;
-  width: 50.625rem;
+  width: 917px;
   height: 2.75rem;
   border-radius: .625rem;
   border: .125rem solid #F0F0F0;
@@ -135,7 +135,7 @@ section.area .intro_inicial {
 #area-busca .icon {
   position: absolute;
   top: 14.4375rem;
-  left: 70rem;
+  left: 1222px;
   width: 1.1875rem;
   height: 1.1875rem;
   background-image: url(../../img/search.svg);
@@ -157,7 +157,7 @@ section.area .intro_inicial {
   line-height: 1.5rem;
   color: #2E2E2E;
   cursor: pointer;
-  left: 72.875rem;
+  left: 1280px;
   top: 13.875rem;
   width: 5rem;
   height: 2.5rem;
@@ -175,7 +175,7 @@ section.area .intro img{
   width: 59.6875rem;
 }
 
-section.area .leis {
+section.area .caso {
   display: flex;
   position: absolute;
   margin-top: 18.75rem;
@@ -183,19 +183,19 @@ section.area .leis {
   width: 74vw;
 }
 
-.leis table {
+.caso table {
   width: 100%;  
 }
 
-.leis td {
-  padding: .9375rem 0rem;
+.caso td {
+  padding: 10px 0px;
 }
 
-.leis tr {
+.caso tr {
   position: relative;
 }
 
-.leis .table-cabecalho{
+.caso .table-cabecalho{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -204,7 +204,7 @@ section.area .leis {
   color: #000000;
 }
 
-.leis .table-linhas{
+.caso .table-linhas{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -212,21 +212,21 @@ section.area .leis {
   line-height: 1.5rem;
 }
 
-.leis tr::before {
+.caso tr::before {
   position: absolute;
   bottom: 0;
   content: '';
-  width: 90%;
+  width: 95%;
   height: .125rem;
   background-color: #DEDEDE;
   border-radius: .0625rem;
 }
 
-.leis tr a {
+.caso tr a {
   outline: none;
   border: none;
   background-color: #e6aa06;
-  padding: .625rem;
+  padding: 8px;
   border-radius: .3125rem;
   margin: auto;
   font-family: 'Poppins', sans-serif;
@@ -239,7 +239,7 @@ section.area .leis {
   height: 2.75rem;
 }
 
-.leis tr a:hover {
+.caso tr a:hover {
   background-color: #FFBB00;
 }
 

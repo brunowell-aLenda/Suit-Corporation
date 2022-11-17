@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Suit Corporation - Visualizar leis</title>
+  <title>Suit Corporation - Visualizar Casos</title>
 </head>
 <body>
 
@@ -40,7 +40,7 @@
 
         <section class="area">
             <div class="intro_inicial">
-              <p><img src="../../img/menu_book.svg">  Visualizar leis</p>
+              <p><img src="../../img/folder_open.svg">  Visualizar casos</p>
             </div>
 
             <div class="intro">
@@ -48,37 +48,36 @@
             </div>
 
             <div id="area-busca">
-              <input type="text"  name="consulta" id="txt_consulta" placeholder="Informe o número ou a descrição da lei ">
+              <input type="text"  name="consulta" id="txt_consulta" placeholder="Do que você precisa?">
               <div class="icon"></div>
               <button type="submit" id="btn-buscar"title="Pesquisar">Buscar</button>
             </div>
 
-            <div class="leis">
+            <div class="caso">
               <table id="tabela">
                 <tbody>
                   <tr class="table-cabecalho">
-                    <td>Número da lei</td>
+                    <td>Nome do caso</td>
                     <td>Descrição</td>
+                    <td>Categoria</td>
                   </tr>
                   <tr class="table-linhas">
-                    <td><img src="../../img/draft.svg"> Lei 10.098</td>
-                    <td>Lei da Acessibilidade - Deficientes</td>
-                    <td><a href="PageLeis/lei10-098.html" title="Visualizar leis">Visualizar</a></td>
+                    <td><img src="../../img/folder.svg"> Alef Rodrigues</td>
+                    <td>Alef sofreu uma cobrança indevida...</td>
+                    <td>Direito civil</td>
+                    <td><a href="#" title="Arquivar">Arquivar</a></td>
                   </tr>
                   <tr class="table-linhas">
-                    <td><img src="../../img/draft.svg"> Lei 6.367</td>
-                    <td>Lei do Acidente do Trabalho</td>
-                    <td><a href="PageLeis/Lei6-367.html" title="Visualizar leis">Visualizar</a></td>
+                    <td><img src="../../img/folder.svg"> Adriano Marques</td>
+                    <td>Adriano foi vítima de fraude online...</td>
+                    <td>Direito digital</td>
+                    <td><a href="#" title="Arquivar">Arquivar</a></td>
                   </tr>
                   <tr class="table-linhas">
-                    <td><img src="../../img/draft.svg"> Lei 7.492</td>
-                    <td>Lei do Colarinho Branco</td>
-                    <td><a href="PageLeis/Lei-7-492.html" title="Visualizar leis">Visualizar</a></td>
-                  </tr>
-                  <tr class="table-linhas">
-                    <td><img src="../../img/draft.svg"> Lei 9.605</td>
-                    <td>Lei de Crimes Ambientais</td>
-                    <td><a href="PageLeis/Lei-9-605.html" title="Visualizar leis">Visualizar</a></td>
+                    <td><img src="../../img/folder.svg"> Breno Henrique</td>
+                    <td>Breno foi cobrado duplamente por...</td>
+                    <td>Direito tributário</td>
+                    <td><a href="#" title="Arquivar">Arquivar</a></td>
                   </tr>
                 </tbody>
               </table>
