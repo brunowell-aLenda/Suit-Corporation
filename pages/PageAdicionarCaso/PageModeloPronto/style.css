@@ -124,7 +124,7 @@
     section.area .intro img{
       position: absolute;
       display: flex;
-      margin-top: 235px;
+      margin-top: 14.6875rem;
       margin-left: 21.875rem;
       width: 59.6875rem;
     }
@@ -142,8 +142,8 @@
       font-family: 'Open Sans', sans-serif;
       font-size: 1rem;
       font-weight: 600;
-      top: 600px;
-      left: 620px;
+      top: 37.5rem;
+      left: 38.75rem;
 }
 
 .card-modelo-pronto button:hover{
@@ -152,7 +152,7 @@
     
  .dvCentro{
   position: absolute;
-  top: 260px;
-  left: 350px;
+  top: 16.25rem;
+  left: 21.875rem;
   width: 70%;
 }

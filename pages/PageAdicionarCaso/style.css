@@ -123,26 +123,26 @@
    form{
     display: flex;
     position: absolute;
-    top: 220px;
-    left: 354px;
+    top: 13.75rem;
+    left: 22.125rem;
     align-items: center;
 }
 
 form label{
     color: #000000;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    margin: 10px 0 5px 0;
+    margin: .625rem 0 .3125rem 0;
     font: bold;
 }
 
 form input{
-  margin-bottom: 10px;
-    padding: 8px;
+  margin-bottom: .625rem;
+    padding: .5rem;
     width: 100%;
     border-radius: .625rem;
-    border: 1px solid #B3B3B3;
+    border: .0625rem solid #B3B3B3;
 }
 
 input::placeholder{
@@ -154,13 +154,13 @@ input::placeholder{
 form a {
   display: flex;
   position: absolute;
-  top: 290px;
+  top: 18.125rem;
   background-color: #e6aa06;
   padding: .625rem;
   border-radius: .3125rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #000000;
 }
 
