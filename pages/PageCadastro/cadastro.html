@@ -128,12 +128,12 @@
         <div class="modal">
             <div class="modal-chamada">
                 <div class="modal-chamada-info">
-                    <img src="/Suit-Corporation/img/task_alt.png" alt="">
+                    <img src="../../img/task_alt.svg" alt="">
                     <p>Cadastro realizado com sucesso.</p>
                 </div>
             </div>
             <div class="btn-fechar">  
-              <a id="fechar" href=""><img src="/Suit-Corporation/img/cancel.png" alt="">Fechar</a>
+              <a id="fechar" href=""><img src="../../img/cancel.svg" alt="">Fechar</a>
             </div>
         </div>
     </div>
@@ -153,6 +153,7 @@
      const btnFechar = document.getElementById('fechar')
   
      btnAlterar.addEventListener('click', (e)=>{
+        
          e.preventDefault();
          const modal = document.getElementById('modal-planos');
          modal.classList.add('mostrar');
@@ -162,6 +163,7 @@
         e.preventDefault();
         const modal = document.getElementById('modal-planos');
         modal.classList.remove('mostrar');
+        window.location.pathname="/pages/PageLogin/login.html";
      });
   
   </script>

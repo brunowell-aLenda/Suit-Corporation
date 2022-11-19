@@ -19,7 +19,6 @@ function pegarDadosSalvarLocalStore(){
     };
     //ENVIANDO OS DADOS PARA O LOCAL STORE
     localStorage.setItem("advogado", JSON.stringify(advogado));
-    window.location.pathname="/pages/PageLogin/login.html";
 }
 
 //trazer do LocalStrore como um objeto e so mostrar para o console
