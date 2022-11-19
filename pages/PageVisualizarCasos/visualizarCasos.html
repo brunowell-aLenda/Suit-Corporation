@@ -65,25 +65,40 @@
                     <td><img src="../../img/folder.svg"> Alef Rodrigues</td>
                     <td>Alef sofreu uma cobrança indevida...</td>
                     <td>Direito civil</td>
-                    <td><a href="#" title="Arquivar">Arquivar</a></td>
+                    <td><a id="alterar" href="#" title="Arquivar">Arquivar</a></td>
                   </tr>
                   <tr class="table-linhas">
                     <td><img src="../../img/folder.svg"> Adriano Marques</td>
                     <td>Adriano foi vítima de fraude online...</td>
                     <td>Direito digital</td>
-                    <td><a href="#" title="Arquivar">Arquivar</a></td>
+                    <td><a id="alterar" href="#" title="Arquivar">Arquivar</a></td>
                   </tr>
                   <tr class="table-linhas">
                     <td><img src="../../img/folder.svg"> Breno Henrique</td>
                     <td>Breno foi cobrado duplamente por...</td>
                     <td>Direito tributário</td>
-                    <td><a href="#" title="Arquivar">Arquivar</a></td>
+                    <td><a id="alterar" href="#" title="Arquivar">Arquivar</a></td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
         </section>
+
+         <!--MODAL-->
+    <div id="modal-planos" class="modal-container">
+      <div class="modal">
+          <div class="modal-chamada">
+              <div class="modal-chamada-info">
+                  <img src="/Suit-Corporation/img/task_alt.png" alt="">
+                  <p>Caso arquivado com sucesso.</p>
+              </div>
+          </div>
+          <div class="btn-fechar">  
+            <a id="fechar" href=""><img src="/Suit-Corporation/img/cancel.png" alt="">Fechar</a>
+          </div>
+      </div>
+    </div>
     </main>
     
 <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
@@ -94,6 +109,24 @@
 $('input#txt_consulta').quicksearch('table#tabela tbody tr');
 $('button#btn-buscar').quicksearch('table#tabela tbody tr');
 </script>
+<script>
+  // ============== MODAL PLANOS ==============
 
+   const btnAlterar = document.getElementById('alterar');
+   const btnFechar = document.getElementById('fechar')
+
+   btnAlterar.addEventListener('click', (e)=>{
+       e.preventDefault();
+       const modal = document.getElementById('modal-planos');
+       modal.classList.add('mostrar');
+   });
+
+   btnFechar.addEventListener('click', (e)=>{
+      e.preventDefault();
+      const modal = document.getElementById('modal-planos');
+      modal.classList.remove('mostrar');
+   });
+
+</script>
 </body>
 </html>
