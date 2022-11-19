@@ -24,11 +24,11 @@ main > section{
     margin: auto;
     background-color: #FFFFFF ;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60vw;
-    height: 100vh;
+    width: 65vw;
+    height: 90vh;
     padding: 1.875rem 2.5rem;
     border-radius: .625rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;

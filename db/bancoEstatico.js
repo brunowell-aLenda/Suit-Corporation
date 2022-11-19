@@ -52,7 +52,7 @@ function obterDadosLocalStore(){
         advogadoJSON.senha = novaSenha;
         localStorage.setItem('advogado', JSON.stringify(advogadoJSON));
     }
-    document.querySelector(".mensagem-de-erro-senha").style.display = "block";
+    //document.querySelector(".mensagem-de-erro-senha").style.display = "block";
 }
 
 //Atualizar cadastro do advogado (TELA DE EDIÇÃO PERFIL) 
