@@ -126,7 +126,7 @@ section.area .intro_inicial {
   line-height: 1.5rem;
   letter-spacing: 0em;
   text-align: left;
-  width: 53.75rem;
+  width: 50.625rem;
   height: 2.75rem;
   border-radius: .625rem;
   border: .125rem solid #F0F0F0;
@@ -136,7 +136,7 @@ section.area .intro_inicial {
 #area-busca .icon {
   position: absolute;
   top: 14.4375rem;
-  left: 1170px;
+  left: 70rem;
   width: 1.1875rem;
   height: 1.1875rem;
   background-image: url(../../img/search.svg);
@@ -158,7 +158,7 @@ section.area .intro_inicial {
   line-height: 1.5rem;
   color: #2E2E2E;
   cursor: pointer;
-  left: 76.875rem;
+  left: 72.875rem;
   top: 13.875rem;
   width: 5rem;
   height: 2.5rem;
@@ -189,7 +189,7 @@ section.area .caso {
 }
 
 .caso td {
-  padding: .625rem 0rem;
+  padding: .9375rem 0rem;
 }
 
 .caso tr {
@@ -217,7 +217,7 @@ section.area .caso {
   position: absolute;
   bottom: 0;
   content: '';
-  width: 95%;
+  width: 95.5%;
   height: .125rem;
   background-color: #DEDEDE;
   border-radius: .0625rem;
@@ -227,7 +227,7 @@ section.area .caso {
   outline: none;
   border: none;
   background-color: #e6aa06;
-  padding: .5rem;
+  padding: .625rem;
   border-radius: .3125rem;
   margin: auto;
   font-family: 'Poppins', sans-serif;
@@ -243,6 +243,7 @@ section.area .caso {
 .caso tr a:hover {
   background-color: #FFBB00;
 }
+
 
 
 /*MODAL*/
